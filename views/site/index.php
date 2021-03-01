@@ -3,7 +3,11 @@
 /* @var $this yii\web\View */
 
     $this->title = 'Ariza Topshirish';
-    ?>
+$host  = $_SERVER['HTTP_HOST'];
+$host_upper = strtoupper($host);
+$path   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+$link = "http://" . $host . $path . "/site/ariza";
+?>
     <div class="site-index">
 
         <div class="jumbotron">
@@ -11,7 +15,7 @@
 
             <p class="lead">Bu yerda siz yangi ish uchun ariza qoldirishingiz numkin.</p>
 
-            <p><a class="btn btn-lg btn-danger" href="site/ariza">Topshirish</a></p>
+            <p><a class="btn btn-lg btn-danger" href="<?=$link?>">Topshirish</a></p>
         </div>
 
         <!-- <div class="body-content">

@@ -12,5 +12,16 @@ parol: morgan
 
 admin login parollarini models/User.php da o'zgartirishingiz mumkin.
 
+<h2>REST API:</h2>
+<small>
+POST — ariza qoldirish; (api/create)
+
+GET — id beriladi, va shu id dagi nomzod maʼlumotlarini olish; (api/7)
+
+PUT — berilgan id dagi arizani oʻzgartirish; (api/7{json})
+
+DELETE — berilgan id dagi arizani oʻchirib yuborish. (api/7)
+</small>
+<br><br><br><br><br><br>
 
 Telegram: @C_Morgan</p>

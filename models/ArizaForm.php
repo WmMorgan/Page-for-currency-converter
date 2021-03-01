@@ -49,7 +49,7 @@ public function rules()
             'familyname' => $this->familyname,
             'address' => $this->address,
             'countryoforigin' => $this->countryoforigin,
-            'phonenumber' => $this->phonenumber,
+            'phonenumber' => '+'.$this->phonenumber,
             'hired' => $this->hired,
             'status' => 'Yangi'
         ])->execute();

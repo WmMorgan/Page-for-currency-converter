@@ -3,4 +3,14 @@
     <br>
 </p>
 
-<div style="font-color: red;">Telegram: @C_Morgan </div>
+<p>
+Xatoliklar uchun uzur so'rayman, comment qoldirish mumkin bo'lsa kamchiliklarni yozib qoldirsangiz hursand bo'lardim.
+
+Admin account:
+login: admin
+parol: morgan
+
+admin login parollarini models/User.php da o'zgartirishingiz mumkin.
+
+
+Telegram: @C_Morgan</p>

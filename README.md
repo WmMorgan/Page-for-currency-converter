@@ -1,27 +1,24 @@
 <p align="center">
-    <h1 align="center">Yii 2 Basicda Ish uchun ariza qoldirish applicationi</h1>
+    <h2 align="center">Page for currency converter in yii2 basic</h2>
     <br>
 </p>
+<img src="https://i.ibb.co/JrPPHpf/currency.png" width="400">
 
-<p>
-Xatoliklar uchun uzur so'rayman, comment qoldirish mumkin bo'lsa kamchiliklarni yozib qoldirsangiz hursand bo'lardim.
+<br><p>Page related technologies:</p>
+<pre>
+Php-Yi2 \ Javascript \ Angularjs \ CSS \ Html \ Jquery (select2)
+</pre>
+<p>Page related files</p>
+<pre>
+web/exchangeStyle/*
+views/exchange
+controllers/ExchangeController.php
+P.S: is updated every 3 seconds when another currency is selected
+</pre>
 
-Admin account:
-login: admin
-parol: morgan
+<br>
+<h6>
+If there are any errors or omissions, please write them down
+<br>
+Если есть какие-либо ошибки или упущения, оставьте, пожалуйста, записку</h6>
 
-admin login parollarini models/User.php da o'zgartirishingiz mumkin.
-
-<h2>REST API:</h2>
-<small>
-POST — ariza qoldirish; (api/create)
-
-GET — id beriladi, va shu id dagi nomzod maʼlumotlarini olish; (api/7)
-
-PUT — berilgan id dagi arizani oʻzgartirish; (api/7{json})
-
-DELETE — berilgan id dagi arizani oʻchirib yuborish. (api/7)
-</small>
-<br><br><br><br><br><br>
-
-Telegram: @C_Morgan</p>

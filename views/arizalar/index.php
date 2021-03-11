@@ -3,12 +3,25 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+use yii\widgets\Breadcrumbs;
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\ArizaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Arizalar Ro\'yxati';
-$this->params['breadcrumbs'][] = $this->title;
+echo Breadcrumbs::widget([
+    'itemTemplate' => "<li><i>{link} / </i></li><br>", // template for all links
+    'links' => [
+//        [
+//            'label' => 'Post Category',
+//            'url' => ['post-category/view', 'id' => 10],
+//            'template' => "<li><b>{link}</b></li>\n", // template for this link only
+//        ],
+//        ['label' => 'Sample Post', 'url' => ['post/edit', 'id' => 1]],
+        ['label'=> $this->title,
+        'template'=> '<span class="is-active"> {link}</span>'],
+    ],
+]);
 ?>
 <div class="arizalar-index">
 

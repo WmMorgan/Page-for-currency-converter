@@ -12,24 +12,24 @@ use yii\helpers\Html;
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <!--===============================================================================================-->
- <link rel="icon" type="image/png" href="/arizastyle/images/icons/favicon.ico"/>
+ <link rel="icon" type="image/png" href="/web/arizastyle/images/icons/favicon.ico"/>
  <!--===============================================================================================-->
- <link rel="stylesheet" type="text/css" href="/arizastyle/bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/bootstrap/css/bootstrap.min.css">
  <!--===============================================================================================-->
- <link rel="stylesheet" type="text/css" href="/arizastyle/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
  <!--===============================================================================================-->
- <link rel="stylesheet" type="text/css" href="/arizastyle/animate/animate.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/animate/animate.css">
  <!--===============================================================================================-->
- <link rel="stylesheet" type="text/css" href="/arizastyle/css-hamburgers/hamburgers.min.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/css-hamburgers/hamburgers.min.css">
  <!--===============================================================================================-->
- <link rel="stylesheet" type="text/css" href="/arizastyle/animsition/css/animsition.min.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/animsition/css/animsition.min.css">
  <!--===============================================================================================-->
- <link rel="stylesheet" type="text/css" href="/arizastyle/select2/select2.min.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/select2/select2.min.css">
  <!--===============================================================================================-->
- <link rel="stylesheet" type="text/css" href="/arizastyle/daterangepicker/daterangepicker.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/daterangepicker/daterangepicker.css">
  <!--===============================================================================================-->
- <link rel="stylesheet" type="text/css" href="/arizastyle/css/util.css">
- <link rel="stylesheet" type="text/css" href="/arizastyle/css/main.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/css/util.css">
+ <link rel="stylesheet" type="text/css" href="/web/arizastyle/css/main.css">
  <!--===============================================================================================-->
 </head>
 <body>
@@ -107,14 +107,14 @@ $form = ActiveForm::begin([
       <? ActiveForm::end() ?>
 
 <!--===============================================================================================-->
-<script src="/arizastyle/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="/web/arizastyle/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-<script src="/arizastyle/vendor/animsition/js/animsition.min.js"></script>
+<script src="/web/arizastyle/vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-<script src="/arizastyle/vendor/bootstrap/js/popper.js"></script>
-<script src="/arizastyle/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/web/arizastyle/vendor/bootstrap/js/popper.js"></script>
+<script src="/web/arizastyle/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-<script src="/arizastyle/vendor/select2/select2.min.js"></script>
+<script src="/web/arizastyle/vendor/select2/select2.min.js"></script>
 <script>
     $(".selection-2").select2({
         minimumResultsForSearch: 20,
@@ -122,12 +122,12 @@ $form = ActiveForm::begin([
     });
 </script>
 <!--===============================================================================================-->
-<script src="/arizastyle/vendor/daterangepicker/moment.min.js"></script>
-<script src="/arizastyle/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/web/arizastyle/vendor/daterangepicker/moment.min.js"></script>
+<script src="/web/arizastyle/vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-<script src="/arizastyle/vendor/countdowntime/countdowntime.js"></script>
+<script src="/web/arizastyle/vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-<script src="/arizastyle/js/main.js"></script>
+<script src="/web/arizastyle/js/main.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>

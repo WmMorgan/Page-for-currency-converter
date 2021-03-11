@@ -1,0 +1,275 @@
+
+.sampexchange {
+
+     background-color: #f2f5fa;
+     margin: auto 0px;
+     padding: 30px 50px 0 50px;
+     border-radius: 10px;
+
+    display: flex;
+ }
+
+#container {
+    margin: 0px auto;
+    background: #fff;
+   max-width: 640px;
+
+    padding: 30px 30px 30px 30px;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+
+
+input[id=otText] {
+    margin-left: 140px;
+    top: -59px;
+    /*Shu*/
+    position: relative;
+    left: -2px;
+    max-width: 308px;
+    height: 59px;
+    padding: 12px 20px;
+    font-family: Roboto, sans-serif;
+    color: #202124;
+    font-size: 20px;
+    font-weight: 900;
+    border: 2px solid #bfc7ca;
+    border-radius: 0 7px 7px 0;
+    outline: none;
+    
+}
+
+
+.polee {
+    margin-bottom: -7px;
+    position: relative;
+    float: right;
+    right: 2px;
+   width: 434px;
+    height: 74px;
+    background: #fff;
+    padding: 20px;
+margin-top: -4px;
+    border: 2px solid #bfc7ca;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    color: #202124;
+    font-size: 18px;
+    font-weight: 900;
+}
+.poletext {
+    border-bottom: 2px;
+    border-bottom-style: dotted;
+
+}
+
+
+select[name=otmaount] {
+    width: 170px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.titlemg {
+    font-family: Roboto, sans-serif;
+    color: #202124;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+#h2s {
+    font-family: Roboto, sans-serif;
+    color: #202124;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+#h3s {
+    margin-left: -26px;
+    float: left;
+    font-family: Roboto, sans-serif;
+    color: #202124;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 60px;
+}
+
+select[name=tomaount] {
+    width: 168px;
+}
+input[id=toText] {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 170px;
+    left: -4px;
+    width: 310px;
+    height: 59px;
+    padding: 12px 20px;
+
+    font-family: Roboto, sans-serif;
+    color: #202124;
+    font-size: 20px;
+    font-weight: 900;
+
+    border-top: 2px solid #bfc7ca;
+    border-right: 2px solid #bfc7ca;
+    border-bottom: 2px solid #bfc7ca;
+    border-left: 2px solid #bfc7ca;
+    border-radius: 0 7px 7px 0;
+    outline: none;
+}
+
+
+
+
+.exchangeRate {
+    color: #6D767E;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+/*Strelka, Arrow*/
+
+
+.arrow {
+    margin-top: -2px;
+    left: 20px;
+    float: left;
+    position: relative;
+    /*margin: 0 auto;*/
+    width: 30px;
+}
+
+.arrow .curve {
+    border: 2px solid #ccc;
+    border-color: transparent transparent transparent #ccc;
+    height: 170px;
+    width: 1200px;
+    border-radius: 0px 0 0 0px;
+}
+
+.arrow .point {
+    position: absolute;
+    left: 0px;
+    top: 165px;
+}
+
+.arrow .point:before, .arrow .point:after {
+    margin-left: -0.5px;
+    border-left: 2px solid #ccc;
+    height: 7px;
+    content: "";
+    position: absolute;
+}
+
+.arrow .point:before {
+    top: -0px;
+    left: -2px;
+    transform:rotate(-74deg);
+    -webkit-transform:rotate(-50deg);
+    -moz-transform:rotate(-74deg);
+    -ms-transform: rotate(-74deg);
+}
+
+.arrow .point:after {
+    top: -0px;
+    left: 3px;
+    transform:rotate(12deg);
+    -webkit-transform: rotate(50deg);
+    -moz-transform:rotate(12deg);
+    -ms-transform: rotate(12deg);
+}
+
+/* Чут чут адаптатция 😉 */
+
+@media (max-width: 640px) {
+    .curve {
+       margin-bottom: -40px;
+       margin-top: -58px;
+       margin-left: 210px;
+        padding-bottom: 207px;
+/*display: unset;*/
+    }
+    .arrow {
+       margin-right: -100px;
+    }
+    .point {
+        margin-top: -18px;
+        margin-left: 211px;
+
+    }
+
+    input[id=otText] {
+        position: center;
+        left: -37%;
+        width: 80%;
+        height: 50px;
+        margin-top: 63px;
+        border-radius: 7px;
+
+    }
+    input[id=toText] {
+        top: 45px;
+        width: 80%;
+        height: 50px;
+        left: -46%;
+        border-radius: 7px;
+    }
+
+    .sampexchange {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .polee {
+        width: 220px;
+        height: 50px;
+        margin-right: 100px;
+        font-size: 15px;
+    }
+
+    .poletext {
+        margin-top: -10px;
+        position: absolute;
+    }
+    .exchangeRate {
+        margin-left: 100px;
+        font-size: x-small;
+        margin-top: -5px;
+        position: absolute;
+    }
+
+    span .select2-selection.select2-selection--single {
+        border-radius: 7px;
+        height: 50px;
+    }
+#container {
+    padding: 15px 15px 15px 15px;
+}
+
+#h3s {
+
+    margin-left: 10px;
+padding-bottom: 10px;
+}
+}
+
+html {
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+}
+/*
+ *
+ * Автор: Morgan
+ * Телеграм: @C_Morgan
+ * Почта: morganhakker@gmail.com
+ *
+ */

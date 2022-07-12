@@ -2,7 +2,7 @@
     <h2 align="center">Page for currency converter in yii2 basic</h2>
     <br>
 </p>
-<img src="https://i.ibb.co/JrPPHpf/currency.png" width="400">
+<img src="https://i.ibb.co/JrPPHpf/currency.png" width="400" />
 
 <br><p>Page related technologies:</p>
 <pre>
